@@ -25,12 +25,5 @@ function copyPassword() {
     }, 2000); /* фон с скопированым пасспортом через 2 секунды исчезает */
 }
 
-console.log(typeof (String(null)));
-console.log(typeof (String(4)));
-console.log(typeof (null));
-console.log(typeof (4));
-console.log(typeof (4 + ''));
 
-const num = 5;
-console.log("https://en.wikipedia.org/wiki/English_alphabet" + num);
 
