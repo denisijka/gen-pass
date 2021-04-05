@@ -3,7 +3,7 @@ let alertBox = document.querySelector('.alertBox');
 // Pass generation
 function getPassword() {
     let chars = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!@#$%^&*()_+?><:{}[]";
-    let passwordLenght = 18;
+    let passwordLenght = 27;
     let password = '';
     for (let i = 0; i < passwordLenght; i++) {
         let randomNumber = Math.floor(Math.random() * chars.length);
